@@ -134,7 +134,7 @@ int lsh_builtin_nums(){
 // Builtin function implementation
 int lsh_cd(char **args){
   if (args[1] == NULL){
-    fprintf(stderr, "lsh: expected argument to \"cd\"\n");
+    fprintf(stderr, "lsh: expected argument in \"cd\"\n");
   } else {
     if (chdir(args[1]) != 0) {
       perror("lsh");
@@ -151,7 +151,7 @@ int lsh_help(char **args){
     printf(" %s\n", builtin_str[i]);
   }
 
-  printf("Use the man command for information on other programs.");
+  printf("Use the man command for information on other programs.\n");
   return 1;
 }
 

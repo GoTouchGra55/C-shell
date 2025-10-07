@@ -1,6 +1,6 @@
-# LSH – Shaurya Tamang's Mini Shell
+# Shaurya Tamang's Mini Shell
 
-LSH is a simple Unix/Linux command-line shell written in C. It demonstrates core concepts of shell programming, including process creation, execution, built-in commands, and token parsing.
+A simple Unix/Linux command-line shell written in C. It demonstrates core concepts of shell programming, including process creation, execution, built-in commands, and token parsing.
 
 ---
 
