@@ -29,7 +29,7 @@ A simple Unix/Linux command-line shell written in C. It demonstrates core concep
 2. Compile using GCC:
 
 ```
-gcc -o main main.c
+gcc main.c utils.c -o main
 ```
 3. Run the shell:
 ```
